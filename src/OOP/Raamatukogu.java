@@ -7,25 +7,6 @@ import java.util.Arrays;
  *
  * Raamatukogu klassi ei tohi muuta.
  */
-class Sonaraamat {
-
-    public Sonaraamat(String raamatuKeel) {
-    }
-
-    public void sisestaSona(String puaas) {
-    }
-
-    public String[] otsiEsimeseTaheJargi(String u) {
-        return new String[0];
-    }
-
-    public void eemaldaSona(String s) {
-    }
-
-    public void misKeelesRaamatOn() {
-    }
-}
-
 public class Raamatukogu {
     public static void main(String[] args) {
 
@@ -38,10 +19,10 @@ public class Raamatukogu {
         raamat.sisestaSona("sarkasm");
         raamat.sisestaSona("iroonia");
 
-        String[] vaste = raamat.otsiEsimeseTaheJargi("u");
+        String[] vaste = raamat.otsiEsimeseTaheJargi('u');
         System.out.println(Arrays.toString(vaste));
 
-        String[] vaste2 = raamat.otsiEsimeseTaheJargi("s");
+        String[] vaste2 = raamat.otsiEsimeseTaheJargi('s');
         System.out.println(Arrays.toString(vaste2));
 
         raamat.eemaldaSona(vaste2[0]);

@@ -11,18 +11,6 @@ package OOP;
 
 public class Pood {
 
-
-    public static class  Kassa {
-        public Kassa(String kassapidaja) {
-        }
-
-        public void lisaToode (String toode){}
-        public void eemaldaToode (String toode){}
-        public void prindiOstutsekk(){}
-        public void prindiKassapidajaNimi(){}
-
-    }
-
     public static void main(String[] args) {
 
         String kassapidaja = "Laine";
